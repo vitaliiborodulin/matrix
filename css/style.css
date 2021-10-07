@@ -1,0 +1,48 @@
+body,
+.title {
+    text-align: center;
+}
+
+.area-input {
+    margin: 20px 0;
+}
+
+.area-error {
+    margin: 10px 0;
+    color: #b60b0b;
+    font-weight: bold;
+}
+
+.area-input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.area-wrapper {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eeaaaa;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b60b0b;
+    font-size: 30px;
+}
